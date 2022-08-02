@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+    color: #006fff;
+    transition: 300ms;
+}
+
+a:hover{
+    color: #0048ab;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: black;
+}
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.card-dt-small{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 20rem;
+    height: 30rem;
+    box-shadow: 0px 6px 19px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+    margin: 2rem;
+    overflow: hidden;
+    background-image: url("https://sun1-20.userapi.com/impg/GHM-4_6wAdZlLnYWisVAUA2Zc5Y7yymVLjwU_w/TWHmsUb2ftU.jpg?size=1620x2160&quality=95&sign=79728cdb5e14438c05d42cc3da5dd48e&type=album");
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: top;
+    transition: 300ms;
+}
+
+.card-dt-small:hover{
+    background-size: 110%;
+}
+
+
+.card-popup{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    height: 10rem;
+    background-color: #eaeaea;
+    transition: 300ms;
+}
+
+.card-popup:hover{
+    top: 0;
+}
+
+.card-dt-large{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 45rem;
+    height: 30rem;
+    background-color: #eaeaea;
+    box-shadow: 0px 6px 19px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 15px;
+    margin: 2rem;
+    background-size: 80%;
+    overflow: hidden;
+    transition: 300ms;
+    background-repeat: no-repeat;
+    background-position: -5.325rem;
+    background-image: url("https://sun1-99.userapi.com/impg/j6FrErxGrgkkd-khyNqnDW-q6qnmJOgZRFhq7g/ux-WgLoDclg.jpg?size=1045x1080&quality=95&sign=040f0b37520f756f156b77eac306f2a7&type=album");
+}
+
+.card-dt-large:hover {
+    background-size: 83%;
+    background-position: -6rem;
+}
+
+.card-static{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 20rem;
+    background-color: #eaeaea;
+}
+
+.theme-switch{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #eaeaea;
+    top: 0;
+    left: 0;
+    margin: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    box-shadow: 0px 6px 19px 4px rgba(0, 0, 0, 0.3);
+}
+
+.theme-switch:hover{
+    color: #565656;
+}
